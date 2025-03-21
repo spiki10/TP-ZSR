@@ -9,6 +9,7 @@ bool oscilatoran(vektor &v){
     for(int i = 2; i<v.size(); i++){
         if(pattern && (i%2==0 && v[i-1]<v[i] || i%2==1 && v[i-1]>v[i]))
             return false;
+        else if
 
     }
     return true;
