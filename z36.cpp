@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-// bez upotrebe nekih data structures popu setova i mapa drugacije nije moguce uraditi
 
 vector<int> OdstraniDuplikate(vector<int> &v){
     vector<int> output;
